@@ -82,6 +82,7 @@ class Game {
                 this.overlay.setAttribute('id', 'overlay');
                 this.btn.removeAttribute('hidden');
                 this.titleOne.removeAttribute('hidden');
+                console.log(this.btn.textContent = 'Try again');
                 this.resetKeyPressed();
                 this.resetHearts();
             }
